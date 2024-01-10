@@ -2,7 +2,7 @@
 
 export const ProjectDeatils=[
   {
-    liveLink: 'https://air-bnb-clone-flame.vercel.app/',
+    liveLink: 'https://air-bnb-clone-mu-one.vercel.app/',
     sourceLink: 'https://github.com/rohitmane9022/AirBnb_Clone',
     id: 'AirBnb_Clone',
     title: 'AirBnb_Clone',
