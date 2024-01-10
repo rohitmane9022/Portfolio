@@ -2,8 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
 *{
-  scroll-behavior: smooth;
+  
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
+}
+@layer base{
+  body{
+    background-color: #18181B;
+    
+    font-family:sen, system-ui, sans-serif;
+  }
+  
 }
