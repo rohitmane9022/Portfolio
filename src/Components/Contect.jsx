@@ -21,7 +21,7 @@ export default function Contect() {
       <GrLinkedinOption/>
       </Link>
 
-      <Link to="mailto:kr.rohitmane8356@gmail.com" target="_black" className="rounded-lg bg-zinc-800 p-2 mx-2 text-2xl ring-zinc-500 hover:ring-2 transition-all duration-200">
+      <Link to="mailto:rohitmane8356@gmail.com" target="_black" className="rounded-lg bg-zinc-800 p-2 mx-2 text-2xl ring-zinc-500 hover:ring-2 transition-all duration-200">
       <MdEmail/>
       </Link>
       </div>
