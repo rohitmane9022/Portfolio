@@ -26,6 +26,11 @@ function Skills() {
           <span className='font-semibold text-white'>Context API and Redux toolkit</span>
           &nbsp;as my State Management tool
         </p>
+         <p className='flex flex-row flex-wrap border-b-[0.1px] py-1 border-gray-500 text-slate-300 items-center' >
+          <BsArrowRightShort className='w-8 h-8'/>
+          <span className='font-semibold text-white'>ExpressJs, NodeJs, Mongoose, MongoDb...</span>
+          &nbsp;as my Backend Framework
+        </p>
         
       </div>
       <p className='text-lg text-slate-300'>...more skills include <span className='text-white font-semibold'>HTML, CSS3</span></p>
