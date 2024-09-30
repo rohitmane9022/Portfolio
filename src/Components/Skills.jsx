@@ -8,7 +8,7 @@ function Skills() {
       <div className='text-md md:text-xl my-8 flex flex-col'>
         <p className='flex flex-row flex-wrap border-b-[0.1px] py-1 border-gray-500 text-slate-300 items-center' >
           <BsArrowRightShort className='w-8 h-8'/>
-          <span className='font-semibold text-white'>React.js</span>
+          <span className='font-semibold text-white'>Next.js, React.js</span>
           &nbsp;as my Frontend Framework
         </p>
         <p className='flex flex-row flex-wrap border-b-[0.1px] py-1 border-gray-500 text-slate-300 items-center' >
