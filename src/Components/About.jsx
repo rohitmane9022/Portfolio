@@ -15,7 +15,7 @@ export default function About() {
           <AiOutlineArrowRight className="mt-1 transition-all duration-100 group-hover:ml-1 "/></Link>
         </div>
         <div className="hidden md:block">
-          <img className=" w-[200px] object-contain rounded-full" src="https://res.cloudinary.com/dj1awovlx/image/upload/v1740140119/IMG_20250221_174234_eanfaa.jpg" alt=""/>
+          <img className="h-[200px] w-[200px] object-cover rounded-full" src="https://res.cloudinary.com/dj1awovlx/image/upload/v1740140119/IMG_20250221_174234_eanfaa.jpg" alt=""/>
         </div>
       </section>
     
