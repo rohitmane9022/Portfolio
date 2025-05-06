@@ -7,13 +7,13 @@ const Experience = () => {
     <section className="my-16 px-3 font-sen ctx" id="experience">
       <p className="text-3xl font-bold dark:text-white mb-8">Experience</p>
     <div className="flex flex-wrap sm:flex-nowrap	 relative border-l border-l-gray-600 px-4 py-2  border-gray-400">
-      <div className="flex">
+      <div className="sm:flex">
       <div className="-ml-5">
         <Image src={fiverr}
     alt="Rohit Mane"
     width={100} 
   height={100}
-    className="rounded-ful" />
+    className="rounded-ful mb-2 sm:mb-0" />
       </div>
     <div className="w-full -ml-2 ">
         <p className="my-0 text-foreground font-bold text-xl">

@@ -16,7 +16,7 @@ export default function About() {
           <Link href="https://www.buymeacoffee.com/rohitmane" target="_blank" className="group font-jost mt-4 flex items-center gap-1 flex-row text-xl text-gray-400 transition-all duration-150 hover:text-white">Love my work? Sponsor me!
           <AiOutlineArrowRight className="mt-1 transition-all duration-100 group-hover:ml-1 "/></Link>
         </div>
-        <div className="relative h-[200px] w-[200px] rounded-full overflow-hidden">
+        <div className="relative h-[200px] w-[200px] rounded-full overflow-hidden hidden sm:block ">
   <Image
     src="https://res.cloudinary.com/dj1awovlx/image/upload/v1740140701/IMG_20250221_175243_ppd6i6.jpg"
     alt="Rohit Mane"
