@@ -22,6 +22,22 @@ export const ProjectDeatils=[
       title: 'Social-Media',
       img: 'https://res.cloudinary.com/dj1awovlx/image/upload/v1704804989/Screenshot_2024-01-09_182612_nzdsow.png',
       techStack: 'React, Context API, Vanilla CSS and Auth using JWT',
+    },
+    {
+      liveLink: 'https://documenter.getpostman.com/view/24254671/2s9YRGxUcs',
+      sourceLink: '',
+      id: 'Restaurant-API-Documentation',
+      title: 'Restaurant API Documentation',
+      img: 'https://res.cloudinary.com/dj1awovlx/image/upload/v1746514920/Screenshot_2025-05-06_123129_vadbjn.png',
+      techStack: 'Expressjs, Node, Postman, JWT',
+    },
+    {
+      liveLink: 'https://documenter.getpostman.com/view/24254671/2s9YJZ4jZx#intro',
+      sourceLink: '',
+      id: 'TripAdvisor-APIs-Documentations',
+      title: 'TripAdvisor APIs Documentations',
+      img: 'https://res.cloudinary.com/dj1awovlx/image/upload/v1746514960/Screenshot_2025-05-06_123220_aa2kmt.png',
+      techStack: 'Expressjs, Node, Postman, JWT',
     }
   ]
   

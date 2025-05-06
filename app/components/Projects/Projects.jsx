@@ -17,7 +17,7 @@ export default function Project() {
             <Link target="_blank" href={project.liveLink} className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purple-600 flex items-center justify-center text-2xl bg-transparent font-semibold uppercase outline-none focus:outline-none mr-4 mb-1 ease-linear transition-all duration-150">
               Live
             </Link>
-            <Link target="_blank" href={project.sourceLink} className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purple-600 flex items-center justify-center text-2xl bg-transparent font-semibold uppercase outline-none focus:outline-none mr-4 mb-1 ease-linear transition-all duration-150">Source</Link>
+            {project?.sourceLink===""?<></>:<Link target="_blank" href={project.sourceLink} className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purple-600 flex items-center justify-center text-2xl bg-transparent font-semibold uppercase outline-none focus:outline-none mr-4 mb-1 ease-linear transition-all duration-150">Source</Link>}
           </div>
           <div className="peer-hover:blur-sm group hover:blur-sm transition-all duration-300 flex flex-col space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 md:max-w-3xl lg:max-w-4xl max-w-xl mx-auto border border-white bg-white">
           <div className="w-full bg-white grid place-items-center">
