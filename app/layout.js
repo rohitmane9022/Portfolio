@@ -27,6 +27,9 @@ export const metadata = {
     siteName: 'Rohit Mane Portfolio',
     type: 'website',
   },
+  icons: {
+    icon: '/favicon.png', 
+  },
 };
 
 export default function RootLayout({ children }) {
