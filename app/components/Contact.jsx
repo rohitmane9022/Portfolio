@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function Contect() {
   return (
-    <div className="mt-16 pb-16 px-3" id="Contact">
+    <div className="mt-16 pb-16 px-3" id="contact">
       <p  className="text-3xl font-semibold">Get in Touch</p>
 
       <div className='mt-8 mb-6 flex flex-row justify-center items-center'>

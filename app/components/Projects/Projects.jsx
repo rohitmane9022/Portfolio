@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Project() {
   return (
-    <section className="my-16 px-3"id="Projects">
+    <section className="my-16 px-3"id="projects">
       <p className="text-3xl font-semibold text-white">Featured Projects</p>
       
       {ProjectDeatils?.map(project=>(
