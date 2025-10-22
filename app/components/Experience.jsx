@@ -21,7 +21,7 @@ const Experience = () => {
             <p className="my-0 text-foreground font-bold text-xl">
               Intern - Full Stack Developer
             </p>
-            <p className="my-0 text-lg font-bold">Fiverr</p>
+            <p className="my-0 text-lg font-bold">IndianGoods</p>
             <p className="my-0 text-sm  dark:text-gray-300 text-gray-500">
               Sec 2025 - Present
             </p>
@@ -30,7 +30,7 @@ const Experience = () => {
                 <span className="text-foreground dark:text-gray-200 font-bold">
                   Tech Stack:
                 </span>
-                &nbsp; ReactJs, Typescript, TailwindCss, Shadcn, Expressjs, JWT,
+                &nbsp; ReactJs, Javascrit, TailwindCss, Redux, Shadcn, Expressjs, JWT,
                 more...
               </li>
               <li>
