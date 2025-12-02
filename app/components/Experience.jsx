@@ -1,6 +1,7 @@
 import Image from "next/image";
 import fiverr from "./Image/fiverr.png";
-import IndianGoods from "./Image/IndianGoods.png"
+import momda from "./Image/momda.jpg"
+import Link from "next/link";
 
 const Experience = () => {
   return (
@@ -11,7 +12,7 @@ const Experience = () => {
         <div className="sm:flex">
           <div className=" rounded-full w-16 h-16">
             <Image
-              src={IndianGoods}
+              src={momda}
               alt="Rohit Mane"
            
               className="rounded-full mb-2 -ml-1 sm:mb-0"
@@ -19,13 +20,23 @@ const Experience = () => {
           </div>
           <div className="w-full ml-1">
             <p className="my-0 text-foreground font-bold text-xl">
-              Intern - Full Stack Developer
+              Intern - Frontent Developer
             </p>
-            <p className="my-0 text-lg font-bold">IndianGoods</p>
+            <Link   target="_blank"
+  rel="noopener noreferrer" href="https://www.momdigitalagency.com/" className=" text-lg font-bold">MOM Digital Agency</Link>
             <p className="my-0 text-sm  dark:text-gray-300 text-gray-500">
               Sec 2025 - Present
             </p>
-            <ul className="work dark:text-gray-400 text-gray-600">
+            <ul className="mt-1.5 dark:text-gray-400 text-gray-600">
+            <li>
+                <span className="font-semibold text-foreground dark:text-gray-200">What I worked on:</span>
+                <ul className="list-disc ml-5 mt-1 mb-2 space-y-1 text-gray-600 dark:text-gray-400">
+                  <li>Built responsive UI components using React + Tailwind</li>
+                  <li>Fixed bugs and improved site speed & performance</li>
+                  <li>Implemented reusable components with shadcn</li>
+                  <li>Worked with Node + Express for basic backend tasks</li>
+                </ul>
+              </li>
               <li>
                 <span className="text-foreground dark:text-gray-200 font-bold">
                   Tech Stack:
