@@ -17,16 +17,13 @@ export const metadata = {
     'Rohit Mane', 'Frontend Developer', 'Full Stack Developer', 'React Developer', 'Next.js Developer',
     'Tailwind CSS', 'Portfolio', 'Web Developer', 'Freelancer in Mumbai'
   ],
-  authors: [{ name: 'Rohit Mane', url: 'https://rohitmane.vercel.app' }],
+  authors: [{ name: 'Rohit Mane', url: 'https://rohitmane.space' }],
   creator: 'Rohit Mane',
-  verification: {
-    google: "1d34P1wcH6jhJK0Ef_MjwomOlraxZ-_jIUGolvP",
-  },
-  metadataBase: new URL('https://rohitmane.vercel.app'),
+  metadataBase: new URL('https://rohitmane.space'),
   openGraph: {
     title: 'Rohit Mane | Full Stack Developer',
     description: 'Passionate Frontend Developer building fast and modern web apps with React and Next.js.',
-    url: 'https://rohitmane.vercel.app',
+    url: 'https://rohitmane.space',
     siteName: 'Rohit Mane Portfolio',
     type: 'website',
   },
