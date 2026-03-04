@@ -25,7 +25,7 @@ const Experience = () => {
             <Link   target="_blank"
   rel="noopener noreferrer" href="https://www.momdigitalagency.com/" className=" text-lg font-bold">MOM Digital Agency</Link>
             <p className="my-0 text-sm  dark:text-gray-300 text-gray-500">
-              Sec 2025 - Present
+              Sec 2025 - Nov 2025
             </p>
             <ul className="mt-1.5 dark:text-gray-400 text-gray-600">
             <li>
